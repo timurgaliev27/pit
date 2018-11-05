@@ -1,4 +1,4 @@
- = int(input())
+n = int(input())
 k= str(input()).split()
 white = (1,1)
 black = (n,n)
