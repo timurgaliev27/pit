@@ -1,0 +1,15 @@
+ = int(input())
+k= str(input()).split()
+white = (1,1)
+black = (n,n)
+
+
+if (int(k[0])-1+int(k[1])-1+1) > (int(k[0])-int(n)+int(k[1])-int(n)):
+    print('White')
+elif k[0]==1 and k[1]==1:
+    print('White')
+elif int(k[0])==n and int(k[1])==n:
+    print('Black')
+elif (int(k[0])-1+int(k[1])-1+1) < (int(k[0])-int(n)+int(k[1])-int(n)):
+    print('Black')
+    
